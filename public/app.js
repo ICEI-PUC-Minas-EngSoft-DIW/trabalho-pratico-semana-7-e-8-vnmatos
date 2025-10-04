@@ -1,1 +1,1 @@
-alert("VAI TOMA NO SEU CU DIEGO");
+alert("funcionou(teste)");
