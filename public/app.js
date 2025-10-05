@@ -19,6 +19,7 @@ const destinos = [
         descricao : "Uma metrópole global, centro financeiro e cultural com dois milênios de história, marcada por um contraste entre o antigo e o moderno.",
         imagem: "images/cards/londres.jpg",
     }
+    
 ]
 
             function montarCards() {

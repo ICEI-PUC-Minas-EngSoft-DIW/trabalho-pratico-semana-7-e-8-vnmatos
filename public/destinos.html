@@ -35,4 +35,18 @@
 
      <script src="app.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+     <script>
+          // Função para pegar parâmetros da URL
+          function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+          }
+
+          // Verifica se veio da home
+          const origem = getQueryParam('from');
+          if (origem === 'home') {
+            console.log("Usuário veio da página inicial!");
+            // Aqui você pode exibir uma mensagem de boas-vindas ou animar os cards, por exemplo.
+          }
+</script>
 </html>
