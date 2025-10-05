@@ -26,22 +26,34 @@ Leia o enunciado completo no Canvas.
 
 ## Print da página de detalhes do item
 
-![print ferrmenta desenvolverdor](public/images/HomePage2.png)
+![print ferrmenta desenvolverdor](public/images/DetalhesDoItem.png)
 
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
 const dados = [
-  {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
-  }
+ const destinos = [
+    {
+        nome: "Milão",
+        pais: "Itália",
+        imagem: "images/cards/milao.webp",
+        descricao: "A capital da moda, do design e da economia da Itália",
+    },
+
+    {
+        nome: "Paris",
+        pais: "França",
+        descricao: "A cidade luz, famosa pela Torre Eiffel e pela culinária.",
+        imagem: "images/cards/paris.jpg",
+    },
+
+    {
+        nome:"Londres",
+        pais: "Inglaterra",
+        descricao : "Uma metrópole global, centro financeiro e cultural com dois milênios de história, marcada por um contraste entre o antigo e o moderno.",
+        imagem: "images/cards/londres.jpg",
+    }
+    
 ]
 ```
