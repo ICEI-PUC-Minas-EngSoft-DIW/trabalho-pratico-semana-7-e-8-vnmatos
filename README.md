@@ -12,18 +12,22 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Vinicius Matos 
+- Matricula: 898073
+- Proposta de projeto escolhida: Lugares e Experiências
+- Breve descrição sobre seu projeto: Um site onde as pessoas podem pesquisar seus destinos e com isso saber todos os pontos turísticos, restaurantes famosos , atrações, etc... Como se fosse um mapa.
 
-## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+## Print da Home-Page 
+
+
+![print ferrmenta desenvolverdor](public/images/HomePage2.png)
+
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+![print ferrmenta desenvolverdor](public/images/HomePage2.png)
+
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
