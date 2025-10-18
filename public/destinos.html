@@ -16,6 +16,54 @@
     <header id="main-header" style="background-color:#1f3b59 !important; color:#fff; text-align:center; padding:48px 0;">
   <div class="container">
     <h1> Pé na Estrada</h1>
+    
+    
+    <!-- SEÇÃO 1 - Itens em Destaque -->
+<section class="container mt-5 mb-5 text-center">
+  <div class="carousel-container mx-auto">
+    <div id="carouselDestinos" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner rounded-4 shadow">
+        <div class="carousel-item active">
+          <img src="images/cards/paris.jpg" class="d-block w-100" alt="Paris">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-3">
+            <h5>Paris, França</h5>
+            <p>A cidade luz, famosa pela Torre Eiffel e pela culinária inesquecível.</p>
+            <a href="paris.html" class="btn btn-primary btn-sm">Ver detalhes</a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/cards/londres.jpg" class="d-block w-100" alt="Londres">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-3">
+            <h5>Londres, Inglaterra</h5>
+            <p>A capital vibrante do Reino Unido, cheia de história e cultura moderna.</p>
+            <a href="londres.html" class="btn btn-primary btn-sm">Ver detalhes</a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/cards/galeria.jpg" class="d-block w-100" alt="Milão">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-3">
+            <h5>Milão, Itália</h5>
+            <p>A capital mundial da moda, arte e design — elegante em cada esquina.</p>
+            <a href="milao.html" class="btn btn-primary btn-sm">Ver detalhes</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestinos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselDestinos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+</section>
+
 
     <div style="margin-top:18px;">
       <button class="btn btn-light btn-sm" ><a href="index.html">Home</a></button>
@@ -46,4 +94,9 @@
           const origem = getQueryParam('from');
         
 </script>
+<footer>
+        <p>© 2025 | Projeto Lugares do Mundo | Desenvolvido por Vinicius Matos</p>
+    </footer>
+
+</body>
 </html>

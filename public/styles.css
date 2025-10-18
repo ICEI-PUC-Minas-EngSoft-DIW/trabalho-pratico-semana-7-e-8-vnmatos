@@ -12,7 +12,35 @@
     font-family:'Chewy'; src: url(fonts/Chewy-Regular.ttf);
  } 
 
+/*slides da home*/
+.carousel-container {
+  max-width: 900px;  /* controla a largura do carrossel */
+  margin: 0 auto;    /* centraliza horizontalmente */
+}
 
+.carousel img {
+  object-fit: cover;
+  height: 500px;     /* altura fixa bonita */
+  border-radius: 20px;
+}
+
+.sub-titulo {
+  font-family: 'Chewy', cursive;
+  color: #0091FF;
+  font-size: 2rem;
+}
+
+.carousel-caption h5 {
+  font-family: 'Chewy', cursive;
+  color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  color: #eee;
+}
+
+/*fim do css dos slides
 
  /*pagina de detalhes  ======================================================================================*/
 /*tive que criar o css separado na header, pois bugou muita coisa quando só copiei e colei o header da home*/
