@@ -21,7 +21,7 @@ Leia o enunciado completo no Canvas.
 ## Print da Home-Page 
 
 
-![print ferrmenta desenvolverdor](public/images/HomePage2.png)
+![print ferrmenta desenvolverdor](public/images/)
 
 
 ## Print da página de detalhes do item
